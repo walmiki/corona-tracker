@@ -5,9 +5,12 @@ import CountUp from "react-countup";
 import cx from "classnames";
 import styles from "./Cards.module.css";
 
-const Cards = ({ data: { confirmed, active, recovered, deaths } }) => {
+const Cards = ({
+	data,
+	state: { confirmed, active, recovered, deaths, lastUpdate },
+}) => {
 	if (!confirmed) {
-		return "Loading...";
+		return <h1>Select State</h1>;
 	}
 
 	return (

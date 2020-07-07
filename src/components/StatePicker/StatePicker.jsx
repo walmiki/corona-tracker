@@ -1,18 +1,18 @@
 import React from "react";
 import { NativeSelect, FormControl } from "@material-ui/core";
-import { fetchStateData } from "../../api";
+import { fetchState } from "../../api";
 
 import styles from "./StatePicker.module.css";
 
 const StatePicker = ({ handleStateChange }) => {
-	const [fetchedState, setFetchedState] = React.useState([]);
+	const [state, setState] = React.useState([]);
 
 	React.useEffect(() => {
 		const fetchStateAPI = async () => {
-			setFetchedState(await fetchStateData());
+			setState(await fetchState());
 		};
 		fetchStateAPI();
-	}, [setFetchedState]);
+	}, []);
 
 	return (
 		<FormControl className={styles.formControl}>
@@ -20,8 +20,7 @@ const StatePicker = ({ handleStateChange }) => {
 				defaultValue=""
 				onChange={(e) => handleStateChange(e.target.value)}
 			>
-				<option value="">Select State</option>
-				{fetchedState.map((state, index) => (
+				{state.map((state, index) => (
 					<option key={index} value={state}>
 						{state}
 					</option>
