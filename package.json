@@ -2,7 +2,7 @@
 	"name": "corona-tracker-react",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://walmiki.github.io/corona-tracker",
+	"homepage": "http://walmiki.github.io/india-corona-tracker",
 	"dependencies": {
 		"@material-ui/core": "^4.11.0",
 		"@testing-library/jest-dom": "^4.2.4",
