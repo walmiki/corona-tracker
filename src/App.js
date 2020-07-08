@@ -1,5 +1,6 @@
 import React from "react";
-import { Cards, Chart, StatePicker } from "./components";
+import { Chart, StatePicker, List } from "./components";
+import IndiaData from "./components/List/IndiaData";
 import styles from "./App.module.css";
 import { fetchData, fetchAllData } from "./api";
 
@@ -7,7 +8,7 @@ import image from "./img/image.png";
 
 class App extends React.Component {
 	state = {
-		data: "",
+		data: {},
 		state: "",
 	};
 	async componentDidMount() {
@@ -21,13 +22,13 @@ class App extends React.Component {
 	// 	};
 
 	handleStateChange = async (state) => {
-		const data = await fetchData();
-		const data1 = data.find(handleState);
+		const stateData = await fetchData(state);
+		const data1 = stateData.find(handleState);
 		function handleState(name) {
 			return name.state === state;
 		}
 
-		this.setState({ data, state: data1 });
+		this.setState({ stateData, state: data1 });
 	};
 
 	render() {
@@ -36,8 +37,11 @@ class App extends React.Component {
 		return (
 			<div className={styles.container}>
 				<img className={styles.image} src={image} alt="COVID-19" />
-				<Cards data={data} state={state} />
+
+				<IndiaData data1={data} />
 				<StatePicker handleStateChange={this.handleStateChange} />
+				<List state={state} />
+
 				<Chart data={data} state={state} />
 			</div>
 		);

@@ -2,3 +2,11 @@
 	width: 30%;
 	margin-bottom: 30px !important;
 }
+
+@media (max-width: 770px) {
+	.formControl {
+		margin-top: 15% !important;
+		width: 40%;
+		margin-bottom: 10px !important;
+	}
+}

@@ -1,0 +1,29 @@
+.indiaData {
+	margin: 2% auto 20px !important;
+}
+
+.indiaData p {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.mainText {
+	font-size: 32px !important;
+}
+
+@media (max-width: 770px) {
+	.indiaData p {
+		margin-top: 20%;
+		font-size: 0.9rem;
+		font-weight: bold !important;
+		color: black;
+	}
+	.mainText {
+		font-size: 32px !important;
+	}
+	.text {
+		font-size: 1rem !important;
+		color: black;
+	}
+}
