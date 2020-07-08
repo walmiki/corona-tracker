@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/corona-tracker/static/css/main.5a6cab61.chunk.css",
-    "main.js": "/corona-tracker/static/js/main.c711857c.chunk.js",
-    "main.js.map": "/corona-tracker/static/js/main.c711857c.chunk.js.map",
-    "runtime-main.js": "/corona-tracker/static/js/runtime-main.be612a41.js",
-    "runtime-main.js.map": "/corona-tracker/static/js/runtime-main.be612a41.js.map",
-    "static/js/2.c7b4bd8d.chunk.js": "/corona-tracker/static/js/2.c7b4bd8d.chunk.js",
-    "static/js/2.c7b4bd8d.chunk.js.map": "/corona-tracker/static/js/2.c7b4bd8d.chunk.js.map",
-    "index.html": "/corona-tracker/index.html",
-    "precache-manifest.72b88f3b795aa2dd77c2fae92f80e382.js": "/corona-tracker/precache-manifest.72b88f3b795aa2dd77c2fae92f80e382.js",
-    "service-worker.js": "/corona-tracker/service-worker.js",
-    "static/css/main.5a6cab61.chunk.css.map": "/corona-tracker/static/css/main.5a6cab61.chunk.css.map",
-    "static/js/2.c7b4bd8d.chunk.js.LICENSE.txt": "/corona-tracker/static/js/2.c7b4bd8d.chunk.js.LICENSE.txt",
-    "static/media/image.png": "/corona-tracker/static/media/image.d7265326.png"
+    "main.css": "/india-corona-tracker/static/css/main.5a6cab61.chunk.css",
+    "main.js": "/india-corona-tracker/static/js/main.c711857c.chunk.js",
+    "main.js.map": "/india-corona-tracker/static/js/main.c711857c.chunk.js.map",
+    "runtime-main.js": "/india-corona-tracker/static/js/runtime-main.56b8d7a0.js",
+    "runtime-main.js.map": "/india-corona-tracker/static/js/runtime-main.56b8d7a0.js.map",
+    "static/js/2.45d5c9e6.chunk.js": "/india-corona-tracker/static/js/2.45d5c9e6.chunk.js",
+    "static/js/2.45d5c9e6.chunk.js.map": "/india-corona-tracker/static/js/2.45d5c9e6.chunk.js.map",
+    "index.html": "/india-corona-tracker/index.html",
+    "precache-manifest.a1cc190ad2bb7de003768d5cef9151e1.js": "/india-corona-tracker/precache-manifest.a1cc190ad2bb7de003768d5cef9151e1.js",
+    "service-worker.js": "/india-corona-tracker/service-worker.js",
+    "static/css/main.5a6cab61.chunk.css.map": "/india-corona-tracker/static/css/main.5a6cab61.chunk.css.map",
+    "static/js/2.45d5c9e6.chunk.js.LICENSE.txt": "/india-corona-tracker/static/js/2.45d5c9e6.chunk.js.LICENSE.txt",
+    "static/media/image.png": "/india-corona-tracker/static/media/image.d7265326.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.be612a41.js",
-    "static/js/2.c7b4bd8d.chunk.js",
+    "static/js/runtime-main.56b8d7a0.js",
+    "static/js/2.45d5c9e6.chunk.js",
     "static/css/main.5a6cab61.chunk.css",
     "static/js/main.c711857c.chunk.js"
   ]
